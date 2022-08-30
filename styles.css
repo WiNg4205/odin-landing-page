@@ -127,4 +127,29 @@
 .three {
     height: 250px;
     background:  #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quote-container {
+    width: 480px;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.quote {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    color: #1F2937;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.author {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2937;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
 }
